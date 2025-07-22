@@ -82,3 +82,20 @@ def delete_book(book_id:int, db: Session = Depends(get_db)):
     db.query(models.Books).filter(models.Books.id == book_id).delete()
 
     db.commit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
